@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "minesweeper.js",
+  "webpack": "webpack --mode=development --watch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch --mode=development"
@@ -18,4 +19,5 @@
     "url": "https://github.com/ianhutson/minesweeper/issues"
   },
   "homepage": "https://github.com/ianhutson/minesweeper#readme"
+  
 }
